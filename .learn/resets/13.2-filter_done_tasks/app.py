@@ -12,8 +12,4 @@ tasks = [
 
 
 #Your code go here:
-def my_function(object):
-	return object["done"]==True
 
-result = list(filter(my_function,tasks))
-print(result)

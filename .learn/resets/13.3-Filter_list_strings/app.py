@@ -7,9 +7,3 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
-def my_function(string):
-    subcadena='am'
-    if subcadena in string:
-        return string
-result=list(filter(my_function,names))
-print(result)
